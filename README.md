@@ -37,3 +37,4 @@ It definitely would have been helpful to define a function to make these charts,
 - Used the requests.get function on the base_url along with the parameters
 - Used a JSON function to convert the name_address file to a JSON file.
 # Step 5: Add the hotel name and the country as additional information in the hover message for each city in the map
+- Used the hvplot.points function to create a map of the hotel_df data frame, which is plotted by the Lng and Lat columns, the size of the point was based on the humidity value, the color was based on the city, and used the hover_cols function to display the Hotel Name and Country column values as well.
